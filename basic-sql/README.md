@@ -10,23 +10,6 @@ The application connects user input directly into the SQL query.
 query = f"SELECT name FROM products WHERE category = '{category}' AND released = 0"
 ```
 
-## Project Structure
-
-```
-app.py
-products.db
-requirements.txt
-```
-
-## Run
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python app.py
-```
-
 ## Example
 
 Normal request
