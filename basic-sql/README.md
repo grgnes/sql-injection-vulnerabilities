@@ -1,4 +1,4 @@
-# Basic SQL Injection (Flask)
+# Basic SQL Injection 
 
 This project display a basic SQL Injection vulnerability in a Flask application using SQLite.
 
