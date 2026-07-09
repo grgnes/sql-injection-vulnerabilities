@@ -1,8 +1,8 @@
-**# SQL Injection - Union Attack**
+# SQL Injection - Union Attack
 
 This project display a SQL injection vulnerability in determining the number of columns returned by the query with Flask and SQLite. UNION SELECT is used to combine two queries. To combine two queries, it is necessary to know the number of columns. In this application, to determine the number of columns, trials are conducted by adding NULL values until the application no longer returns an error.
 
-**## Vulnerability**
+## Vulnerability
 
 The application directly inserts the category parameter into the SQL query, an attacker can inject a UNION SELECT statement. 
 
@@ -41,7 +41,7 @@ This time, the query works successfully. This shows that the original query retu
 
 The correct column count can now be used in the next UNION SELECT attacks.
 
-**## Secure Version**
+## Secure Version
 
 The secure version uses a parameterized query. User input is treated as data, not as SQL code.
 
