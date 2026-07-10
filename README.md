@@ -197,8 +197,7 @@ Syntax:
 SUBSTRING(text, start, length)
 ```
 
-Examples:
-
+Example 1
 ```sql
 SUBSTRING(password,1,1)
 ```
@@ -209,6 +208,7 @@ Result:
 p
 ```
 
+Example 2
 ```sql
 SUBSTRING(password,2,1)
 ```
@@ -219,6 +219,7 @@ Result:
 a
 ```
 
+Example 3
 ```sql
 SUBSTRING(password,2,4)
 ```
