@@ -12,7 +12,7 @@ query = "SELECT id FROM analytics WHERE tracking_id = '" + tracking + "';"
 
 A custom TrackingId cookie is created to test the application.
 
-![İMAGE ](screenshots/image (1).png)
+![İMAGE ](screenshots/image(1).png)
 
 A single quote (') is added to the TrackingId cookie. An SQL error is returned, confirming that the application is vulnerable to SQL Injection.
 
