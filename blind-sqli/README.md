@@ -16,7 +16,7 @@ A custom TrackingId cookie is created to test the application.
 
 A single quote (') is added to the TrackingId cookie. An SQL error is returned, confirming that the application is vulnerable to SQL Injection.
 
-![İMAGE ](screenshots/image (2).png)
+![Image](screenshots/image%20(2).png)
 
 A condition that is always true is added to the TrackingId cookie. The application returns Welcome back, confirming that the injected condition is evaluated as true.
 
@@ -24,15 +24,16 @@ A condition that is always true is added to the TrackingId cookie. The applicati
 SELECT id FROM analytics WHERE tracking_id = 'abc123' OR '1'='1';
 ```
 
-![İMAGE ](screenshots/image (3).png)
+![Image](screenshots/image%20(3).png)
 
 A condition that is always false is added to the TrackingId cookie. The application returns Hello visitor, confirming that the injected condition is evaluated as false.
 
-![İMAGE ](screenshots/image (4).png)
+![Image](screenshots/image%20(4).png)
 
 A Boolean condition is used to check the first character of the administrator's password. When the condition is true, the application returns Welcome back.
 
-![İMAGE ](screenshots/image (5).png)
+![Image](screenshots/image%20(5).png)
+
 
 ## Secure Version
 
