@@ -61,7 +61,7 @@ The usernames are retrieved from the users_secret table using UNION SELECT.
 
 ![İMAGE ](screenshots/image7.png)
 
-**## Secure Version**
+## Secure Version
 
 The secure version uses a parameterized query. User input is treated as data, preventing SQL Injection.
 
